@@ -1,0 +1,10 @@
+{
+   "Name": "Lovino's kids",
+   "Author": "sarazennko",
+   "Description": "Adds Lovino's furry-like kids",
+   "Version": "1.0.0",
+   "UniqueID": "Lovinokids",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

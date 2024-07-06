@@ -1,0 +1,53 @@
+{
+    "Format": "1.5",
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Baby",
+            "FromFile": "assets/baby.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Baby_dark",
+            "FromFile": "assets/baby_dark.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Toddler",
+            "FromFile": "assets/toddler.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_dark",
+            "FromFile": "assets/toddler_dark.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl",
+            "FromFile": "assets/toddler_girl.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl_dark",
+            "FromFile": "assets/toddler_girl_dark.png",
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        }
+    ]
+}

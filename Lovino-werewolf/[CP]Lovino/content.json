@@ -1,0 +1,805 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "HasSeenEvent |contains=46417440": false
+            },
+            "Entries": {
+                "Lovino": {
+                    "DisplayName": "Lovino",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "CanBeRomanced": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanSocialize": false,
+                    "CanVisitIsland": false,
+                    "WinterStarParticipant": false,
+                    "UnlockConditions": false,
+                    "SpawnIfMissing": false,
+                    "CanGreetNearbyCharacters": false,
+                    "Breather": false
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "HasSeenEvent |contains=46417440": true
+            },
+            "Entries": {
+                "Lovino": {
+                    "DisplayName": "Lovino",
+                    "Gender": "Male",
+                    "Manner": "rude",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "Positive",
+                    "BirthSeason": "spring",
+                    "BirthDay": 17,
+                    "CanBeRomanced": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "HomeRegion": "Town",
+                    "FlowerDanceCanDance": null,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Forest",
+                            "Tile": {
+                                "X": 10,
+                                "Y": 10
+                            },
+                            "Direction": "up"
+                        }
+                    ],
+                    "SpouseRoom": {
+                        "MapAsset": "Lovino_SpouseRoom",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Lovino_SpousePatio",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Lovino_SpouseRoom",
+            "FromFile": "assets/Maps/LovinoSpouseRoom.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Lovino_SpousePatio",
+            "FromFile": "assets/Maps/LovinoSpousePatio.tbin"
+        },
+        {
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Lovino": "Oh - you remember what I like, thank you, dear.#$b#%Lovino hugged you hard./60 206 212 224 231 256 395 424 426 430 446 564 591 618 649 727/Grazie!/16 20 24 88 174 176 184 186 257 282 296 436 438 442 458/…/207 192 200 196 197 208 210 244/*sob*Do you hate me so much...! ?/128 149 178 300 605 614 832/not bad."
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 25 60 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Lovino 30 58 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 22 39 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Lovino 22 39 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 41 19 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 37 24 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 40 60 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 30 23 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Lovino 19 25 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 62 29 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Lovino 23 67 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Lovino 23 68 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_Lovino": "I can't believe we've made it this far. I mean, we've had so many unforgettable, beautiful days that are too beautiful to be real. $3#$b#This is all thanks to you, @. You've shown me new possibilities, let me know that the future isn't as bad as I thought, and let me know that I'm not a bad person. So, thank you. $7#$b#...At this time, shouldn't I say something more disgusting? $4#$b#Well...I'll only say it once, so listen carefully! $6\"/faceDirection Lovino 3/pause 500/speak Lovino \"I love you,@. You are a very good person who is willing to be gentle to me. In fact, you are the most worthy person to be treated with tenderness.$1#$b#And...you can do kissing and stuff, right?$4\"/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3980": "This is what you said, there is no use going back on it later!$4"
+            },
+            "When": {
+                "Relationship:Lovino": "Dating"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/farm",
+            "Entries": {
+                "46417440/j 29/t 600 1700": "50s/64 16/farmer 64 16 2 Lovino 64 17 0/skippable/pause 200/playSound doorClose/pause 500/message \"The moment you open the door, you see a familiar figure standing opposite, with wolf ears and a wolf tail.#You subconsciously thought it was Feliciano, but upon closer inspection it was different. At least Feliciano didn't stare at you with that shy and annoyed expression.\"/pause 500/emote farmer 8/pause 500/speak Lovino \"Hey, are you the farmer who lives here?$6\"/pause 500/message \"The speaker - or the werewolf raised his hand and used his claws to brush the wet bangs hanging in front of his eyes. There were still water marks on his clothes. It looked like he had just put them on and was wetted by his wet hair.\"/pause 500/speak Lovino \"Feliciano asked me to come and say hello, I'm his brother, that's it.$0\"/pause 500/emote farmer 40/pause 500/emote farmer 8/pause 500/message \"You wanted to ask him why he looked so embarrassed, but you didn't think it was appropriate, so you asked a better question.\"/pause 500/speak Lovino \"name? Call me Lovino.$0#$b#...Also, Feliciano asked me to bring you this to say thank you for your continued care. [446]$4\"/pause 500/message \"As if the gift in his arms was a scalding hot sweet potato, he hurriedly stuffed it into your hand and turned around without even looking back——#It can even be said to be like running away - leaving, you can still catch a glimpse of his red cheeks at that moment.\"/pause 200/speed Lovino 6/move Lovino 20 0 1 true/faceDirection farmer 1/pause 500/emote farmer 60/pause 500/warp Lovino -100 -100/message \"...What a strange wolf. It seems that not every wolf is as frank as Feliciano.\"/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lovino",
+            "Entries": {
+                "AcceptGift_(O)StardropTea": "Hmm...it tastes great, thank you, I like it.$4",
+                "WinterStar_ReceiveGift": "Thank you for being so thoughtful in preparing a gift for me. Really, I don’t even know what to give as a suitable gift in return...$4",
+                "AcceptGift_category_cooking": "Oh - did you make this yourself? Thank you, I will taste it carefully!$4",
+                "MovieInvitation": "OK! See you at the cinema! I'll find us a good seat!$1"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "LogName": "Lovino Mail",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "summer_12_1": "Humanity@,^Summer is here, the season for tomatoes to ripen. I need some tomatoes for cooking. If you can bring me some, I can give you a portion when they're ready.^PS: I haven’t learned to write yet, so my brother helped me write.^(The handwriting is crooked and there are typos. It seems that the writer is not used to this writing method).^-Lovino%item quest 03171008 %%[#]Lovino needs tomatoes."
+            }
+        },
+        {
+            "LogName": "Lovino Quest",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "03171008": "ItemDelivery/Tomato dishes/Lovino needs tomatoes./Bring Lovino three tomatoes./Lovino 256/-3/200/-3/true/Thanks! These tomatoes look so fresh, they will be great in tomato bolognese sauce!$1"
+            }
+        },
+        {
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Lovino": "GRAZIE MILE, HOW DID YOU KNOW I LIKED IT?/60 206 212 224 231 256 395 424 426 430 446 564 591 618 649 727/GRAZIE!/16 20 24 88 174 176 184 186 257 282 296 436 438 442 458/…/207 192 200 196 197 208 210 244/*sob*Do you hate me so much...! ?/128 149 178 300 605 614 832/not bad.//"
+            },
+            "When": {
+                "Relationship:Lovino |contains=Married": false
+            }
+        },
+        {
+            "LogName": "NPC Concession Tastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Name": "Lovino",
+                "LovedTags": [
+                    "Spicy"
+                ],
+                "LikedTags": [
+                    "Salty",
+                    "Popcorn"
+                ],
+                "DislikedTags": [
+                    "Kale Smoothie"
+                ]
+            }
+        },
+        {
+            "LogName": "Lovino Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Lovino_sleep": "20/20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 20 20 20 20 20 21 21 21 21 21/21",
+                "Lovino_sa": "20/20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 20 20 20 20 20 21 21 21 21 21/21",
+                "Lovino_work": "32/32 32 32 32 32 33 33 33 33 33 34 34 34 34 34 35 35 35 35 35 35 35 35 34 34 34 34 34 33 33 33 33 33 32 32 32 32 32/32",
+                "Lovino_eat": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 16 16 16 16 16 17 17 17 17 17/17",
+                "Lovino_read": "40/40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41 42 42 42 42 42 42 42 42 42 42 43 43 43 43 43 43 43 43 43 43 40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41/41"
+            }
+        },
+        {
+            "LogName": "Lovino",
+            "Action": "Load",
+            "Target": "Characters/Lovino",
+            "FromFile": "assets/Image/LovinoSprites.png"
+        },
+        {
+            "LogName": "Lovino2",
+            "Action": "Load",
+            "Target": "Portraits/Lovino",
+            "FromFile": "assets/Image/LovinoPortraits.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueLovino",
+            "FromFile": "assets/Dialogue/LovinoMarriageDialogue.json"
+        },
+        {
+            "LogName": "NPC Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Lovino",
+            "FromFile": "assets/Dialogue/LovinoDialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lovino",
+            "Entries": {
+                "AcceptBirthdayGift_Liked": "Do you remember my birthday? GRAZIE!$1",
+                "AcceptBirthdayGift_Loved": "GRAZIE MILE I love it!$1",
+                "AcceptBirthdayGift_Hated": "*sob*Do you hate me so much... on my birthday! ?",
+                "AcceptBirthdayGift_Disliked": "Well, at least you didn't forget it's my birthday."
+            },
+            "When": {
+                "Relationship:Lovino |contains=Married": false,
+                "Season": "spring",
+                "Day": "17"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lovino",
+            "Entries": {
+                "AcceptBirthdayGift_Liked": "——! ! Oh - you must have been preparing for a long time, right? Thank you dear.$1#$b#%Lovino gave you a big hug, tail wagging happily, and a wet kiss on the cheek.",
+                "AcceptBirthdayGift_Loved": "GRAZIE MILE, honey, I love it!#$b#%Lovino gave you a big hug, tail wagging happily, and a wet kiss on the cheek.#$b#What? louder? ……Honey.$4#$e#Don’t think I’ll say it a third time!$6",
+                "AcceptBirthdayGift_Hated": "*sob*Do you hate me so much... on my birthday! ?",
+                "AcceptBirthdayGift_Disliked": "Well, at least you didn't forget it's my birthday.$6"
+            },
+            "When": {
+                "Relationship:Lovino": "Married",
+                "Season": "spring",
+                "Day": "17"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3985": "Do you also give gifts to others? So who am I?$2",
+                "NPC.cs.4440": "Oh my god... As a child, I have only taken care of the little wolf in the clan - if only grandpa were here.$8",
+                "NPC.cs.4441": "I'm wondering what to name the baby, but of course it's up to you, I'm not good at that kind of thing.$4",
+                "NPC.cs.4447": "Have some hot soup, Gus says it'll be good for you.$4[218 219 236 728 727 730 199 456 457]#$e#I cooked whatever I wanted, but I can cook more later if you like.$4",
+                "NPC.cs.4448": "If you look so bad, stop working! Get some rest and don't make me worry about you all the time.$6#$b#%Lovino held your hand, trying to pass on his body temperature to you."
+            },
+            "When": {
+                "Relationship:Lovino": "Engaged, Married"
+            }
+        },
+        {
+            "LogName": "NPC Schedules",
+            "Action": "Load",
+            "Target": "Characters/schedules/Lovino",
+            "FromFile": "assets/Schedules/schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Strings/schedules/Lovino",
+            "FromFile": "assets/Schedules/ScheduleDialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "Lovino": {
+                    "NPCName": "Lovino",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "This poster reminds me of my hometown, where everything is green."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "…#$b#%You couldn't see clearly the expression on Lovino's face, but you knew he was looking at it seriously."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It's like a bedtime story that grandpa tells, there are setbacks, but in the end the protagonist always overcomes everything. The two of them are a bit too idealistic, but I don't hate that.$3"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What's this?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "*yawn*$9"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hmm... do you humans like to watch this kind of movie?$6"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "supernatural? You don’t even know about real werewolves, what other creatures can you think of?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "...?"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "You humans.$6"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "'Miracle' again, Feliciano would have liked that word."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%You noticed that Lovino secretly wiped his eyes."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It makes me a little homesick.$8#$b#But at least you and Feliciano are here now, so... it's not too bad.$4"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Lovino was staring at the poster.#$b#Oh...I remember this! The fish here is particularly delicious!$7"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Lovino seems to be getting bored. After all, he cares more about real animals and plants than the abstract natural environment. Moreover, it is a bit torture for a gourmet to have good ingredients walking around in front of his eyes but not being able to eat them in his mouth. ."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Rather than watching a movie like this, it would be more fun if I find time to take you for a spin in the mountains. But it’s only for you, no one else is allowed!$4"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "When does it open? I can't wait.$6"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Lovino laughed so hard that he almost fell off his chair."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hahaha! I will take Feliciano to see it next time!$1"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Horror film? How scary can it be?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "…$2#$b#%You felt Lovino's grip on your hand tighten in the darkness. The sharp nails scratched you a little, and the hair on your ears and tail exploded."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "ha! You, a human, must be terrified! But it's quite interesting. You guys are pretty good at having fun.$7#$b#%Well, considering his fragile pride, you decide to keep the dark theater a secret."
+                                }
+                            },
+                            "ID": "reaction_8"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Why is there no color in this movie?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Lovino was tapping his feet to the movie's interlude."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The song is pretty good, you have great taste!$7"
+                                }
+                            },
+                            "ID": "reaction_9"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "Lovino": "Can you eat Easter eggs?$6"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "Lovino": "take it easy! You will definitely win the championship this year!$1"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring24",
+            "Entries": {
+                "Lovino": "…"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring24",
+            "Entries": {
+                "Lovino": "You finally came! Come! Let’s surprise them this year too!$7"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer11",
+            "Entries": {
+                "Lovino": "*Sniff*It would be appropriate to add a little more of this... No, add rosemary?"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer11",
+            "Entries": {
+                "Lovino": "I'm so hungry - why do I have to wait for the governor to eat first? I brought some snacks from home, so don't starve yourself.$6"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Lovino": "Feliciano loved the jellyfish and thought it was nice to see old friends every year. But the life span of jellyfish is not that long, right? The people who came back this year are no longer the same group as before.$8#$e#He always says that I am too pessimistic, but how can there be so many good things? The world is not as beautiful as he imagined, at least I can't think that way.$8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Lovino": "%You noticed that Lovino was lowering his head and secretly making a wishing gesture. When he noticed your gaze, he hurriedly retracted his hand.#$b#What...what's wrong? Don't you know how to make a wish?$7#$b#What? my wish? ...I won’t tell you.$4"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall16",
+            "Entries": {
+                "Lovino": "Marnie's cheese is really delicious...I used her cheese a lot when I was working in Gusna."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall16",
+            "Entries": {
+                "Lovino": "It’s too wasteful to just display so many good things. I’ll cook you a table of good food when you get home. You’ll feel at ease only when you eat the good things!$7"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Lovino": "I baked some of the pumpkin pies, and although they weren't as good as Gus's craftsmanship, Feliciano ate them happily and said, \"My brother makes them the best.\"$6#$b#...Who wants him to say such shameful words? I won't be happy if he does.$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Lovino": "ha!#$b#%Lovino pops out of the corner to scare you with the scariest moves he can think of, but the tail outside the trees has already given him away. You silently handed him the candy you had prepared earlier, and he snatched it away angrily and threw it into his mouth, chewing it loudly.#$b#*Chewy Corn Chips*I'll scare you next time, just wait!$2"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+                "Lovino": "*yawn*I'm almost asleep... Can you just grab it?$9"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+                "Lovino": "Come on @! Kill them, haha!$1"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Lovino": "We have a similar festival over there, but we don’t wrap any gifts, we just exchange the prey we catch with each other, and then we celebrate with singing and dancing all night long.$7"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Lovino": "I don’t know who will receive my gift this year, but of course I left you the best one so that I won’t give it to others in vain.$6#$b#...You kiss me and I'll tell you where I hide it.$4"
+            },
+            "When": {
+                "Relationship:Lovino": "Married"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Lovino_Beach",
+            "FromFile": "assets/Image/LovinoSprites_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Lovino_Beach",
+            "FromFile": "assets/Image/LovinoPortraits_Beach.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Feliciano",
+            "Entries": {
+                "Tue6": "Although my brother was angry with me when he first came here and said that if it weren't for me, he would not be separated from the tribe, but I know that he is still very happy in his heart, just like I am very happy to see him again!$1",
+                "Thu4": "…Why don’t I stay with my people?$0#$e#It was just a small accident. During the migration, I lost my footing and fell into the river and was washed away. I was separated from them.$8#But now my brother is here too. He learned to cook in Gusna, and I go to eat the pizza and pasta he makes every night!",
+                "Fri2": "Mr. Gus has new dishes every day, and occasionally he has my favorite pasta. But my brother cooks for me every day, so it doesn’t matter!$1"
+            },
+            "When": {
+                "HasSeenEvent": "46417440"
+            }
+        }
+    ]
+}

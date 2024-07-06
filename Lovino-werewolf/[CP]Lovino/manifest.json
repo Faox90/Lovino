@@ -1,0 +1,10 @@
+﻿{
+  "Name": "[CP]Lovino ",
+  "Author": "1.6 Some of the new codes are added by newbies. Other contents are made by the original author sarazennko, and the original NPC mod template author is Sansheng Sarvente.",
+  "Version": "1.0.4",
+  "Description": "Add Lovino the werewolf",
+  "UniqueID": "Lovino",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

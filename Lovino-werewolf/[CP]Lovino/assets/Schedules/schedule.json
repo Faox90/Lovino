@@ -1,0 +1,40 @@
+﻿{
+"rain": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/900 Forest 96 23 0/1200 ArchaeologyHouse 19 10 2 Lovino_read \"Strings\\schedules\\Lovino:intro.001\"/1700 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.003\"/2000 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.002\"/2130 Forest 10 10 2 Lovino_sleep",
+"Sat": "GOTO rain",
+
+"GreenRain": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/800 ArchaeologyHouse 19 10 2 Lovino_read \"Strings\\schedules\\Lovino:intro.001\"/1700 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.019\"/2000 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.020\"/2130 Saloon 24 18 2 Lovino_sleep",
+
+
+"default": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/900 SeedShop 2 23 0\"Strings\\schedules\\Lovino:intro.005\"/1200 Beach 47 25 2 \"Strings\\schedules\\Lovino:intro.000\"/1700 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.003\"/2000 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.002\"/2130 Forest 10 10 2 Lovino_sleep",
+"Mon": "GOTO default",
+"Tue": "GOTO default",
+"Wed": "GOTO default",
+"Thu": "GOTO default",
+"Fri": "GOTO default",
+"Sun": "GOTO default",
+
+"DesertFestival_1": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/800 Desert 6 24 0 \"Strings\\schedules\\Lovino:intro.008\"/1300 Desert 25 63 1 \"Strings\\schedules\\Lovino:intro.019\"/2130 Forest 10 10 2 Lovino_sleep",
+"DesertFestival_3": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/800 Desert 6 24 0 \"Strings\\schedules\\Lovino:intro.008\"/1300 Desert 5 12 2 \"Strings\\schedules\\Lovino:intro.017\"/2130 Forest 10 10 2 Lovino_sleep",
+
+"winter_15": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/900 Forest 96 23 0/1200 SeedShop 2 24 3\"Strings\\schedules\\Lovino:intro.004\"1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.003\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.007\"/2200 Forest 10 10 2 Lovino_sleep",
+"winter_16": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/900 Forest 96 23 0/1200 SeedShop 2 24 3\"Strings\\schedules\\Lovino:intro.004\"1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.003\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.007\"/2200 Forest 10 10 2 Lovino_sleep",
+"winter_17": "610 Forest 10 10 2 Lovino_sa \"Strings\\schedules\\Lovino:intro.001\"/900 Forest 96 23 0/1200 SeedShop 2 24 3\"Strings\\schedules\\Lovino:intro.004\"1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.003\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.007\"/2200 Forest 10 10 2 Lovino_sleep",
+
+
+"marriage_Mon": "1200 SeedShop 2 23 3\"Strings\\schedules\\Lovino:intro.011\"/1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1800 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.013\"/2000 bed",
+"marriage_Wed": "1200 Beach 47 25 2 \"Strings\\schedules\\Lovino:intro.014\"/1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1800 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.013\"/2000 bed",
+"marriage_Sat": "1200 ArchaeologyHouse 19 10 2 Lovino_read \"Strings\\schedules\\Lovino:intro.001\"/1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1800 Saloon 8 20 2 Lovino_eat \"Strings\\schedules\\Lovino:intro.013\"/2000 bed",
+
+"marriage_DesertFestival_1": "1000 Desert 6 24 0 \"Strings\\schedules\\Lovino:intro.015\"/1300 Desert 25 63 1 \"Strings\\schedules\\Lovino:intro.016\"/2000 bed",
+"marriage_DesertFestival_3": "1000 Desert 6 24 0 \"Strings\\schedules\\Lovino:intro.015\"/1300 Desert 5 12 2 \"Strings\\schedules\\Lovino:intro.017\"/2000 bed",
+
+"marriage_winter_15": "1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.018\"/2000 bed",
+"marriage_winter_16": "1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.018\"/2000 bed",
+"marriage_winter_17": "1500 Saloon 15 18 2 Lovino_work \"Strings\\schedules\\Lovino:intro.012\"/1730 Beach 26 34 2 \"Strings\\schedules\\Lovino:intro.018\"/2000 bed",
+
+
+
+
+
+	
+	}
